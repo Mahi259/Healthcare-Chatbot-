@@ -1,0 +1,44 @@
+Disease,Specialist,Doctor,Contact
+Drug Reaction,Allergist,Dr. Emma Johnson,555-1234
+Allergy,Allergist,Dr. Emma Johnson,555-1234
+Hypertension,Cardiologist,Dr. Michael Smith,555-5678
+Heart attack,Cardiologist,Dr. Michael Smith,555-5678
+Psoriasis,Dermatologist,Dr. Olivia Davis,555-8765
+Chicken pox,Dermatologist,Dr. Olivia Davis,555-8765
+Acne,Dermatologist,Dr. Olivia Davis,555-8765
+Impetigo,Dermatologist,Dr. Olivia Davis,555-8765
+Fungal infection,Dermatologist,Dr. Olivia Davis,555-8765
+Hypothyroidism,Endocrinologist,Dr. Sophia Lee,555-2345
+Diabetes,Endocrinologist,Dr. Sophia Lee,555-2345
+Hypoglycemia,Endocrinologist,Dr. Sophia Lee,555-2345
+Hyperthyroidism,Endocrinologist,Dr. Sophia Lee,555-2345
+GERD,Gastroenterologist,Dr. James Wilson,555-3456
+Peptic ulcer disease,Gastroenterologist,Dr. James Wilson,555-3456
+Jaundice,Gastroenterologist,Dr. James Wilson,555-3456
+Dimorphic hemorrhoids (piles),Gastroenterologist,Dr. James Wilson,555-3456
+Gastroenteritis,Gastroenterologist,Dr. James Wilson,555-3456
+Urinary tract infection,Gynecologist,Dr. Emily Clark,555-4567
+Chronic cholestasis,Hepatologist,Dr. Daniel Martinez,555-5679
+Hepatitis A,Hepatologist,Dr. Daniel Martinez,555-5679
+Hepatitis B,Hepatologist,Dr. Daniel Martinez,555-5679
+Hepatitis C,Hepatologist,Dr. Daniel Martinez,555-5679
+Hepatitis E,Hepatologist,Dr. Daniel Martinez,555-5679
+Hepatitis D,Hepatologist,Dr. Daniel Martinez,555-5679
+Alcoholic hepatitis,Hepatologist,Dr. Daniel Martinez,555-5679
+Malaria,Internal Medicine,Dr. Laura White,555-6789
+Dengue,Internal Medicine,Dr. Laura White,555-6789
+Migraine,Neurologist,Dr. Robert Brown,555-7890
+Cervical spondylosis,Neurologist,Dr. Robert Brown,555-7890
+Paralysis (brain hemorrhage),Neurologist,Dr. Robert Brown,555-7890
+AIDS,Osteopathic,Dr. Sarah King,555-8901
+(vertigo) Paroxysmal Positional Vertigo,Otolaryngologist,Dr. Andrew Scott,555-9012
+Common Cold,Otolaryngologist,Dr. Andrew Scott,555-9012
+Typhoid,Pediatrician,Dr. Karen Adams,555-0123
+Varicose veins,Phlebologist,Dr. Peter Collins,555-1235
+Bronchial Asthma,Pulmonologist,Dr. Nancy Hall,555-2346
+Pneumonia,Pulmonologist,Dr. Nancy Hall,555-2346
+Osteoarthritis,Rheumatologists,Dr. Lisa Green,555-3457
+Arthritis,Rheumatologists,Dr. Lisa Green,555-3457
+Tuberculosis,Tuberculosis,Dr. Kevin Carter,555-4568
+```
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/52/613/66/pastel-colorful-minimalism-windows-10-vysakhjanan-hd-wallpaper-preview.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .result-box {
+            background-color:lightpink;
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px gray;
+            font-family: 'Arial', sans-serif;
+            color: black;
+        }
+
+        .result-box h1 {
+            text-align: center;
+            color: darkblue;
+            margin-bottom: 20px;
+        }
+
+        .result-box p,
+        .result-box ul,
+        .result-box table {
+            margin-bottom: 15px;
+        }
+
+        .result-box ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .result-box ul li {
+            margin-bottom: 5px;
+        }
+
+        .result-box table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .result-box table,
+        .result-box th,
+        .result-box td {
+            border: 1px solid black;
+        }
+
+        .result-box th,
+        .result-box td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .result-box a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: darkblue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .result-box a:hover {
+            background-color: lightblue;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="result-box">
+        <h1>RESULTS</h1>
+        <p><strong>Symptoms:</strong> {{ symptoms }}</p>
+        <h2>Predictions</h2>
+        <ul>
+            <li>Random Forest Model Prediction: {{ predictions['rf_model_prediction'] }}</li>
+            <li>Naive Bayes Model Prediction: {{ predictions['naive_bayes_prediction'] }}</li>
+            <li>SVM Model Prediction: {{ predictions['svm_model_prediction'] }}</li><br>
+            <li><strong>Final Prediction:</strong> {{ predictions['final_prediction'] }}</li>
+        </ul>
+        <h2>Doctor Recommendations</h2>
+        {% if recommendations %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Disease</th>
+                    <th>Specialist</th>
+                    <th>Doctor</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for rec in recommendations %}
+                <tr>
+                    <td>{{ rec['disease'] }}</td>
+                    <td>{{ rec['specialist'] }}</td>
+                    <td>{{ rec['doctor'] }}</td>
+                    <td>{{ rec['contact'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% endif %}
+        <a href="/" text-align="center">Back to Search</a>
+    </div>
+</body>
+
+</html>
